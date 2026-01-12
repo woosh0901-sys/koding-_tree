@@ -7,15 +7,10 @@ int main() {
 
     cin >> a >> b >> c;
 
-    cout.precision(4);
+    cout << fixed;
+    cout.precision(3);
     cout << a << "\n";
-
-    cout << fixed;
-    cout.precision(3);
     cout << b << "\n";
-
-    cout << fixed;
-    cout.precision(3);
     cout << c << "\n";
     // Please write your code here.
     return 0;
