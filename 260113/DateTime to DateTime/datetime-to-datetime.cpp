@@ -5,12 +5,12 @@ int main() {
     int a,b,c;
     cin >> a >> b >> c;
 
-    if(a < 11){
-        if(b<11){
-            if(c<11) cout << "-1";
-        }
-    }
-    else cout << (a-11) * 1440 + (b-11) * 60 + (c-11);
+    int start = (11 * 1440) + (11 * 60) + 11;
+    int end = (a * 1440) + (b * 60) + c;
+    
+    int diff = end - start;
+    if(diff < 0) cout << "-1";
+    else cout << diff;
 
     // Please write your code here.
     return 0;
