@@ -22,6 +22,6 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    cout << check(a, b);
+    cout << check(a, b) + 1;
     return 0;
 }
