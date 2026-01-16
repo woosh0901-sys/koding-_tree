@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    lohg long int a,b;
+    long long int a,b;
     cin >> a >> b;
     cout << pow(a,b);
     // Please write your code here.
