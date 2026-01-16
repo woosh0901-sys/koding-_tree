@@ -1,11 +1,21 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
+void printPower(int a, int b) {
+    long long result = 1;
+    
+    for(int i = 0; i < b; i++) {
+        result *= a;
+    }
+    
+    cout << result;
+}
+
 int main() {
-    long long int a,b;
+    int a, b;
     cin >> a >> b;
-    cout << pow(a,b);
-    // Please write your code here.
+    
+    printPower(a, b);
+    
     return 0;
 }
