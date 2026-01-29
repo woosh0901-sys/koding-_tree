@@ -18,7 +18,7 @@ void check1(int n) {
 
 int main() {
     int n;
-    cin >> n
+    cin >> n;
 
     check(n);
     cout << "\n";
