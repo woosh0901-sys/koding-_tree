@@ -34,14 +34,14 @@ int main() {
 
     int idx = 0;
     for(int i =1; i< n;i++){
-        if(person1[idx].name < person[i].name){
+        if(person1[idx].name < person1[i].name){
             idx = i;
         }
     }
 
-    cout << "name " << person[idx].name << "\n";
-    cout << "addr " << person[idx].number << "\n";
-    cout << "city " << person[idx].region;
+    cout << "name " << person1[idx].name << "\n";
+    cout << "addr " << person1[idx].number << "\n";
+    cout << "city " << person1[idx].region;
     // Please write your code here.
 
     return 0;
