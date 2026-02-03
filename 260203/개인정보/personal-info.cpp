@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <iomanip>
 
 using namespace std;
 class People{
@@ -33,6 +34,10 @@ int main() {
         cin >> name[i] >> height[i] >> weight[i];
         Peoples[i] = People(name[i],height[i],weight[i]);
     }
+    
+    cout << fixed;
+    cout.precision(1);
+    
     cout << "name" << "\n";
     sort(Peoples,Peoples+5,scp);
 
