@@ -21,14 +21,14 @@ bool scp(const People& a,const People& b){
 }
 
 int n;
-string name[5];
-int height[5];
-int weight[5];
+string name[10];
+int height[10];
+int weight[10];
 
 int main() {
     cin >> n;
     
-    People Peoples[5];
+    People Peoples[10];
 
     for (int i = 0; i < n; i++) {
         cin >> name[i] >> height[i] >> weight[i];
