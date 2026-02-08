@@ -6,11 +6,11 @@ int n;
 int x[1000];
 char dir[1000];
 
-int white_cnt[2001];
-int black_cnt[2001];
-int tile_color[2001];
+int white_cnt[200001];
+int black_cnt[200001];
+int tile_color[200001];
 
-int loc = 1000;
+int loc = 100000;
 
 int main() {
     cin >> n;
@@ -39,7 +39,7 @@ int main() {
     }
 
     int cnt_w =0,cnt_b =0 ,cnt_g =0;
-    for (int i = 0; i < 2001; i++) {
+    for (int i = 0; i < 200001; i++) {
         if (tile_color[i] == 1) cnt_w++;
         else if (tile_color[i] == 2) cnt_b++;
         else if (tile_color[i] == 3) cnt_g++;
