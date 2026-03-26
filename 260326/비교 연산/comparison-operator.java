@@ -7,9 +7,22 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         
+        if (a >= b) System.out.println("1");
+        else System.out.println("0");
+        
         if (a > b) System.out.println("1");
         else System.out.println("0");
-         if (a > b) System.out.println("1");
+        
+        if (a <= b) System.out.println("1");
+        else System.out.println("0");
+        
+        if (a < b) System.out.println("1");
+        else System.out.println("0");
+        
+        if (a == b) System.out.println("1");
+        else System.out.println("0");
+        
+        if (a != b) System.out.println("1");
         else System.out.println("0");
         
         scanner.close();
